@@ -22,5 +22,5 @@ npm run watch
 cd /var/www/html
 apt update && apt install -y wget
 wget https://raw.githubusercontent.com/katai5plate/exp-docker-nextcloud-frontdev/master/data/install.sh
-bash install ./install.sh
+bash ./install.sh
 ```
