@@ -1,0 +1,8 @@
+version: "2"
+services:
+  ncdev:
+    image: nextcloud
+    volumes:
+      - ./data:/var/www/html/__front_dev
+    ports:
+      - "8080:80"
