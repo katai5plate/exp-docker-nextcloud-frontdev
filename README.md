@@ -6,6 +6,6 @@ dockerでNextCloudのフロント開発環境を構築してみるテスト
 docker-compose up -d && docker ps
 docker exec -it XXXXXXXX bash
 apt update && apt -y upgrade && apt install -y git node npm
-bash ./__front_dev/install.sh
+cd /var/www/html && bash ./__front_dev/install.sh
 npm i
 ```
